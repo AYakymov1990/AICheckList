@@ -1,0 +1,15 @@
+.venv
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+data/
+*.xlsx
+
+# Chroma persistence
+chroma/
+
+# OS / editor
+.DS_Store
+
