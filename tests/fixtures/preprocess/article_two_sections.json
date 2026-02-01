@@ -1,0 +1,15 @@
+{
+  "url": "https://avto.pro/helpcenter/payments/how-to-pay/",
+  "locale": "ru",
+  "category": "Payments",
+  "title": "How to pay",
+  "plain_text": "ignored",
+  "content_hash": "hash123",
+  "sections": [
+    { "heading": "Intro", "text": "Short intro line." },
+    {
+      "heading": "Details",
+      "text": "A very long paragraph that should be split into multiple chunks because it exceeds the configured size. Second sentence continues to ensure we surpass limits. Third sentence to add more characters. Fourth sentence adds even more content to trigger multiple chunks within this single section so that overlap can be validated. Fifth sentence keeps extending the paragraph to ensure we cross thresholds."
+    }
+  ]
+}
