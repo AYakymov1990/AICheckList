@@ -25,6 +25,8 @@ class Settings(BaseSettings):
     rag_top_k: int = Field(5, alias="RAG_TOP_K")
     g4f_base_url: str = Field("http://localhost:1337/v1", alias="G4F_BASE_URL")
     g4f_model: str = Field("gpt-4o-mini", alias="G4F_MODEL")
+    g4f_api_key: str = Field("secret", alias="G4F_API_KEY")
+    g4f_provider: str | None = Field(default=None, alias="G4F_PROVIDER")
     ocr_engine: str = Field("tesseract", alias="OCR_ENGINE")
     vision_enabled: bool = Field(True, alias="VISION_ENABLED")
 
